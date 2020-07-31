@@ -1,0 +1,33 @@
+/* ## Layout
+
+The designs were created to the following widths:
+Mobile: 375px
+Desktop: 1440px
+
+*/
+// TYPOGRAPHY --------------------------
+
+// Headings, Call-to-actions, Header Navigation
+
+$primary-font: 'Raleway', sans-serif;;
+$pimary-regular-weight: 400;
+$pimary-bold-weight: 700;
+
+// Body
+
+$secondary-font: 'Open Sans', sans-serif;
+$secondary-regular-weight: 400;
+
+// COLORS ------------------------------
+
+// Primary
+$very-dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+
+// Accent
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%);
+
+// Neutral
+$light-grayish-blue: hsl(240, 75%, 98%);
+$light-gray: hsl(0, 0%, 75%);

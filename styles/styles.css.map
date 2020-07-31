@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AEAA;;;;;;EAME",
+    "sources": [
+        "styles.scss",
+        "partials/_base.scss",
+        "partials/_variables.scss",
+        "partials/_header.scss",
+        "partials/_sectionOne.scss",
+        "partials/_sectionTwo.scss",
+        "partials/_sectionThree.scss",
+        "partials/_footer.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
