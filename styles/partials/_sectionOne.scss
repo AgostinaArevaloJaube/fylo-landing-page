@@ -1,0 +1,63 @@
+.hero__container {
+	padding: 2rem 0;
+
+	.hero__illustration {
+		max-width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.hero_text-container {
+		width: 100%;
+
+		.hero_heading {
+			width: 93%;
+			margin: 0 auto;
+			padding: 2rem 0;
+			font-family: $primary-font;
+			font-weight: $pimary-bold-weight;
+			line-height: 1.5em;
+			text-align: center;
+		}
+		.hero_parapraph {
+			width: 90%;
+			margin: 0 auto;
+			padding-bottom: 2rem;
+			font-family: $secondary-font;
+			font-weight: $secondary-regular-weight;
+			text-align: center;
+		}
+
+		.hero__input {
+			width: 90%;
+			height: 3rem;
+			margin: 0 auto;
+			display: block;
+			border: 1px solid $very-dark-blue;
+			border-radius: 5px;
+
+			&::placeholder {
+				font-family: $primary-font;
+				padding-left: 1.5em;
+				opacity: 50%;
+			}
+		}
+
+		.btn {
+			width: 90%;
+			height: 3rem;
+			display: block;
+			border-radius: 5px;
+			margin: 20px auto;
+			background-color: $bright-blue;
+			text-decoration: none;
+			font-family: $primary-font;
+				font-weight: $pimary-bold-weight;
+				color: $light-grayish-blue;
+				text-align: center;
+				cursor: pointer;
+				line-height: 50px;
+		}
+	}
+	
+}

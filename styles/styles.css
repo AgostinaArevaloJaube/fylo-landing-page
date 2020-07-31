@@ -13,4 +13,85 @@ Mobile: 375px
 Desktop: 1440px
 
 */
+.hero__container {
+  padding: 2rem 0;
+}
+
+.hero__container .hero__illustration {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero__container .hero_text-container {
+  width: 100%;
+}
+
+.hero__container .hero_text-container .hero_heading {
+  width: 93%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.hero__container .hero_text-container .hero_parapraph {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero__container .hero_text-container .hero__input {
+  width: 90%;
+  height: 3rem;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #070439;
+  border-radius: 5px;
+}
+
+.hero__container .hero_text-container .hero__input::-webkit-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  padding-left: 1.5em;
+  opacity: 50%;
+}
+
+.hero__container .hero_text-container .hero__input:-ms-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  padding-left: 1.5em;
+  opacity: 50%;
+}
+
+.hero__container .hero_text-container .hero__input::-ms-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  padding-left: 1.5em;
+  opacity: 50%;
+}
+
+.hero__container .hero_text-container .hero__input::placeholder {
+  font-family: "Raleway", sans-serif;
+  padding-left: 1.5em;
+  opacity: 50%;
+}
+
+.hero__container .hero_text-container .btn {
+  width: 90%;
+  height: 3rem;
+  display: block;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color: #3065f8;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #f6f6fe;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
