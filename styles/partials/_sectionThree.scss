@@ -24,7 +24,7 @@
       height: 40px;
       padding: 5%;
       margin-bottom: 5%;
-      border-radius: 3px;
+      border-radius: 4px;
       &:focus {
         outline: none;
       }
@@ -42,6 +42,34 @@
       font-size: 1rem;
       &:focus {
         outline: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 780px) {
+  #signin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    text-align: left;
+    .signin__text {
+      width: 40%;
+      .signin__title {
+        margin-bottom: 5%;
+      }
+      .signin__p {
+        margin-bottom: 0;
+      }
+    }
+    .signin__form {
+      width: 40%;
+      margin: 0;
+      button {
+        width: 40%;
+        padding: 2%;
+        font-size: 0.8rem;
       }
     }
   }
