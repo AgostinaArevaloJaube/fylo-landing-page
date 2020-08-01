@@ -181,7 +181,7 @@ Desktop: 1440px
   height: 40px;
   padding: 5%;
   margin-bottom: 5%;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 #signin .signin__form input:focus {
@@ -203,5 +203,39 @@ Desktop: 1440px
 
 #signin .signin__form button:focus {
   outline: none;
+}
+
+@media (min-width: 780px) {
+  #signin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5%;
+    text-align: left;
+  }
+  #signin .signin__text {
+    width: 40%;
+  }
+  #signin .signin__text .signin__title {
+    margin-bottom: 5%;
+  }
+  #signin .signin__text .signin__p {
+    margin-bottom: 0;
+  }
+  #signin .signin__form {
+    width: 40%;
+    margin: 0;
+  }
+  #signin .signin__form button {
+    width: 40%;
+    padding: 2%;
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
