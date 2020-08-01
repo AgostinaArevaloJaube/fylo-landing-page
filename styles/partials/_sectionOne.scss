@@ -7,6 +7,7 @@
 		margin: 0 auto;
 	}
 
+	//? Hago un contenedor de texto para poder darle flex en el desktop
 	.hero_text-container {
 		width: 100%;
 
@@ -28,6 +29,7 @@
 			text-align: center;
 		}
 
+		// input del form
 		.hero__input {
 			width: 90%;
 			height: 3rem;
@@ -43,6 +45,7 @@
 			}
 		}
 
+		// boton get started
 		.btn {
 			width: 90%;
 			height: 3rem;
@@ -52,12 +55,66 @@
 			background-color: $bright-blue;
 			text-decoration: none;
 			font-family: $primary-font;
-				font-weight: $pimary-bold-weight;
-				color: $light-grayish-blue;
-				text-align: center;
-				cursor: pointer;
-				line-height: 50px;
+			font-weight: $pimary-bold-weight;
+			color: $light-grayish-blue;
+			text-align: center;
+			cursor: pointer;
+			line-height: 50px;
 		}
 	}
-	
+}
+
+@media screen and(min-width:1440px) {
+
+	.hero__container {
+		padding-left: 1rem;
+		display: flex;
+		align-items: center;
+
+		.hero__illustration {
+			max-width: 50%;
+			padding: 5%;
+			margin: 0;
+		}
+
+		.hero_text-container {
+			padding-left: 20px;
+			max-width: 50%;
+			order: -1;
+
+			.hero_heading,
+			.hero_parapraph {
+				margin: 0;
+				text-align: left;
+			}
+
+			.hero_heading{
+				font-size: 3em;
+			}
+
+			.hero_parapraph {
+				font-size: 1.5em;
+			}
+
+
+			.submition {
+				display: flex;
+				justify-content: start;
+				gap: 15px;
+				margin: 0;
+				
+
+				.hero__input {
+					max-width: 60%;
+					margin: 0;
+				}
+
+				.btn {
+					max-width: 30%;
+					padding: 0;
+					margin: 0;
+				}
+			}
+		}
+	}
 }

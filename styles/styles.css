@@ -94,4 +94,58 @@ Desktop: 1440px
   cursor: pointer;
   line-height: 50px;
 }
+
+@media screen and (min-width: 1440px) {
+  .hero__container {
+    padding-left: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__container .hero__illustration {
+    max-width: 50%;
+    padding: 5%;
+    margin: 0;
+  }
+  .hero__container .hero_text-container {
+    padding-left: 20px;
+    max-width: 50%;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .hero__container .hero_text-container .hero_heading,
+  .hero__container .hero_text-container .hero_parapraph {
+    margin: 0;
+    text-align: left;
+  }
+  .hero__container .hero_text-container .hero_heading {
+    font-size: 3em;
+  }
+  .hero__container .hero_text-container .hero_parapraph {
+    font-size: 1.5em;
+  }
+  .hero__container .hero_text-container .submition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 15px;
+    margin: 0;
+  }
+  .hero__container .hero_text-container .submition .hero__input {
+    max-width: 60%;
+    margin: 0;
+  }
+  .hero__container .hero_text-container .submition .btn {
+    max-width: 30%;
+    padding: 0;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
