@@ -1,0 +1,45 @@
+.header__container{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    .header_logo{
+        width: 6rem;
+    }
+
+    .header__navbar{
+
+        .header_navbar_content{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            
+            li{
+                text-decoration: none;
+                font-family: $primary-font;
+                font-weight: $pimary-regular-weight;
+                padding: 3% 0 0 1rem;
+                cursor: pointer;
+                
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 780px){
+    .header__container{
+        padding: 3rem 4rem 0 2rem;
+
+        .header_logo{
+          width: 9rem;
+        }
+
+        .header__navbar{
+        .header_navbar_content{
+            li{
+                padding:0 0 0 4rem;
+            }
+        }
+        }
+    }
+}

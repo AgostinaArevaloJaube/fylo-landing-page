@@ -1,0 +1,102 @@
+.footer_container{
+    background-color: $very-dark-blue;
+    padding: 3rem 2rem;
+    font-family: $secondary-font;
+    font-weight: $secondary-regular-weight;
+    color: $light-gray;
+
+    .footer_container_content{
+
+    .footer__phone-mail{
+       padding: 1rem 0 2rem 0;
+        
+
+    .footer__phone {
+        display: flex;
+        padding-bottom: 1rem;
+        
+        .footer__phone-icon{
+            width: 20px;
+            height: 20px;
+        }
+
+        .footer__phone-number{
+            padding-left: 1rem;
+        }
+    }
+
+    .footer__mail{
+        display: flex;
+
+        .footer__mail-icon{
+            width: 25px;
+            height: 20px;
+        }
+
+        .footer__mail-address{
+            padding-left: 1rem;
+        }
+    }
+}
+
+.footer__about-us{
+    padding: 1rem 0;
+    .footer__about-us_content{
+        text-decoration: none;
+        list-style: none;
+        li{
+            padding-top: 1rem;
+        }
+    }
+}
+
+.footer__contact-us{
+    padding: 1rem 0;
+    .footer__contact-us_content{
+        text-decoration: none;
+        list-style: none;
+       
+        li{
+            padding-top: 1rem;
+        }
+
+    }
+}
+
+.footer__social-mediaicons{
+    text-align: center;
+    padding-top: 2rem;
+    .footer__social-mediaicons-arroww{
+        width: 2rem;
+        cursor: pointer;
+        
+    }
+}
+}
+}
+
+@media screen and(min-width: 780px){
+    .footer_container{
+        padding: 5rem 16rem 5rem 4rem;
+       
+        .footer_container_content{
+            display: flex;
+            justify-content: space-between;
+
+            .footer__about-us{
+                padding: 0;
+            }
+
+            .footer__contact-us{
+                padding: 0;
+            }
+
+            .footer__social-mediaicons{
+                padding: 0;
+            }
+
+
+
+        }
+    }
+}
