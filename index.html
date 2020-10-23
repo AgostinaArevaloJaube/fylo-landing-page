@@ -1,101 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Fylo</title>
-  </head>
-  <body>
-    <!-- header + navbar -->
-    <header class="header__container"> 
-   
-      <img class="header_logo" src="images/logo.svg" alt="logo">
-    
-      <nav class="header__navbar">
-        <ul class="header_navbar_content">
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/styles.css" />
 
-    <main>
-      <!-- hero -->
-      <section class="hero__container">
-        <img
-          class="hero__illustration"
-          src="images/illustration-1.svg"
-          alt=" "
-        />
-        <div class="hero_text-container">
-          <h1 class="hero_heading">
-            All your files in one secure location, accessible anywhere.
-          </h1>
-          <p class="hero_parapraph">
-            Fylo stores your most important files in one secure location. Access
-            them wherever you need, share and collaborate with friends, family,
-            and co-workers.
-          </p>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <title>Fylo</title>
+</head>
 
-          <form class="submition" action="">
-            <input
-              class="hero__input"
-              type="text"
-              placeholder="Enter your email..."
-            />
-            <a class="btn" role="button" href="">Get Started</a>
-          </form>
-        </div>
-      </section>
+<body>
+  <!-- header + navbar -->
+  <header class="header__container">
 
-      <!-- sectionTwo -->
-      <section></section>
+    <img class="header_logo" src="images/logo.svg" alt="logo">
 
-      <!-- sectionThree -->
-      <section id="signin">
-        <div class="signin__text">
-          <h3 class="signin__title">Get early access today</h3>
-          <p class="signin__p">
-            It only takes a minute to sign up and our free starter tier is
-            extremely generous.If you have any questions, our support team would
-            be happy to help you.
-          </p>
-        </div>
+    <nav class="header__navbar">
+      <ul class="header_navbar_content">
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+  </header>
 
-        <form class="signin__form">
-          <input type="text" placeholder="email@example.com" />
-          <button type="submit">Get Started For Free</button>
+  <main>
+    <!-- hero -->
+    <section class="hero__container">
+      <img class="hero__illustration" src="images/illustration-1.svg" alt=" " />
+      <div class="hero_text-container">
+        <h1 class="hero_heading">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="hero_parapraph">
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers.
+        </p>
+
+        <form class="submition" action="">
+          <input class="hero__input" type="text" placeholder="Enter your email..." />
+          <a class="btn" role="button" href="">Get Started</a>
         </form>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <!-- footer -->
-    <footer class="footer_container">
-      <img class="footer_logo" src="images/logo.svg" alt="logo">
-  
-      <div class="footer_container_content">
+    <!-- sectionTwo -->
+    <section class="section__two">
+      <div class="section__two__effect"></div>
+      <div class="section__two__container">
+        <h2 class="section__two__container__heading">Stay productive, wherever you are</h2>
+        <p class="section__two__container__paragraph">Never get location be an issue when accessing your files. Fylo has
+          you covered for all your file storage
+          needs. <br> <br>
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email
+          attachments required!</p>
+        <div class="section__two__container__anchor">
+          <a href="#">See how Fylo works</a> <img src="images/icon-arrow.svg" alt="Arrow icon">
+        </div>
+        <div class="section__two__container__card">
+          <img src="images/icon-quotes.svg" alt="Quotes icon">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine</p>
+          <div class="section__two__container__card__author">
+            <img src="images/avatar-testimonial.jpg" alt="Kyle Burton">
+            <div class="section__two__container__card__author__text">
+              <h6>Kyle Burton</h6>
+              <p>Founder & CEO, Huddie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="section__two__illustration" src="images/illustration-2.svg" alt="Illustration">
+    </section>
+
+    <!-- sectionThree -->
+    <section id="signin">
+      <div class="signin__text">
+        <h3 class="signin__title">Get early access today</h3>
+        <p class="signin__p">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous.If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </div>
+
+      <form class="signin__form">
+        <input type="text" placeholder="email@example.com" />
+        <button type="submit">Get Started For Free</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer_container">
+    <img class="footer_logo" src="images/logo.svg" alt="logo">
+
+    <div class="footer_container_content">
       <section class="footer__phone-mail">
         <div class="footer__phone">
           <img class="footer__phone-icon" src="images/icon-phone.svg" alt="phone icon">
           <p class="footer__phone-number">Phone: +1-543-123-4567</p>
         </div>
-  
+
         <div class="footer__mail">
           <img class="footer__mail-icon" src="images/icon-email.svg" alt="mail icon">
           <p class="footer__mail-address">example@fylo.com</p>
         </div>
       </section>
-  
+
       <section class="footer__about-us">
         <ul class="footer__about-us_content">
           <li>About Us</li>
@@ -104,7 +122,7 @@
           <li>Blog</li>
         </ul>
       </section>
-  
+
       <section class="footer__contact-us">
         <ul class="footer__contact-us_content">
           <li>Contact Us</li>
@@ -112,14 +130,15 @@
           <li>Privacy</li>
         </ul>
       </section>
-  
+
       <div class="footer__social-mediaicons">
         <img class="footer__social-mediaicons-arroww" src="images/icon-arrow.svg" alt="icon arrow">
         <img class="footer__social-mediaicons-arroww" src="images/icon-arrow.svg" alt="icon arrow">
         <img class="footer__social-mediaicons-arroww" src="images/icon-arrow.svg" alt="icon arrow">
       </div>
-  
-    </footer>
-  
-  </body>
+
+  </footer>
+
+</body>
+
 </html>
